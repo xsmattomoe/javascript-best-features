@@ -1,6 +1,5 @@
-const channelName = getChannelName(channel);
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-var DELIM_SIZE = 4;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const maxNumber = arr => Math.max(...arr);
+console.log(1 +  -"1" + "2");
+var c = new Counter(); c.add(); c.add(); c.add();
+const isArray = (arr) => Array.isArray(arr);
