@@ -1,3 +1,5 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(1 +  -"1" + "2");
+const isEmptyArray = arr => !arr.length;
+console.log(1 +  "2" + "2");
+const result = await makeHttpRequest(url);
+const merge = (a, b) => [...a, ...b];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
