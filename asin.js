@@ -1,2 +1,1 @@
-const isEmptyArray = arr => !arr.length;
-const repositoryRootPath = path.resolve(__dirname, '..');
+console.log(1 +  +"2" + "2");
