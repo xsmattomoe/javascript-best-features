@@ -1,3 +1,3 @@
-console.log(false === '0');
-const merge = [...new Set([...a, ...b])];
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const channel = getChannel(computedAppVersion);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
