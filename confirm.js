@@ -1,1 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const results = await Promise.all(resultingPromises);
+const merge = [...new Set([...a, ...b])];
