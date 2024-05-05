@@ -1,1 +1,3 @@
-console.log(1 +  +"2" + "2");
+const toggleBool = () => (bool = !bool);
+const updated = numbers.filter(element => element > 6);
+const result = await makeHttpRequest(url);
