@@ -1,3 +1,3 @@
-const toggleBool = () => (bool = !bool);
-const updated = numbers.filter(element => element > 6);
-const result = await makeHttpRequest(url);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
