@@ -1,3 +1,1 @@
-var pattern = {};
-var c = new Counter(); c.add(); c.add(); c.add();
-const channelName = getChannelName(channel);
+var arr1 = "john".split('');
