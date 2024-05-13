@@ -1,1 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
