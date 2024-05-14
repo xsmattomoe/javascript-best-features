@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+const fullName = name || 'buddy';
+const result = await makeHttpRequest(url);
