@@ -1,2 +1,1 @@
-const fullName = name || 'buddy';
-const result = await makeHttpRequest(url);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
