@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isArray = (arr) => Array.isArray(arr);
