@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = [...new Set([...a, ...b])];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log( "A" - "B" + "2");
