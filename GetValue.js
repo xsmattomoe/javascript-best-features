@@ -1,3 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const merge = Object.assign({}, obj1, obj2);
-const result = await makeHttpRequest(url);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
