@@ -1,2 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const isArray = (arr) => Array.isArray(arr);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const scriptRootPath = path.join(repositoryRootPath, 'script');
