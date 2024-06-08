@@ -1,3 +1,3 @@
-console.log(1 +  +"2" + "2");
 var c = new Counter(); c.add(); c.add(); c.add();
-const removeDuplicates = (arr) => [...new Set(arr)];
+const getRandomBoolean = () => Math.random() >= 0.5;
+var pattern = {};
