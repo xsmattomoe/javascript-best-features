@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const channel = getChannel(computedAppVersion);
+console.log(false == '0');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
