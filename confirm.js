@@ -1,3 +1,3 @@
-const channel = getChannel(computedAppVersion);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const updated = numbers.filter(element => element > 6);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isArray = (arr) => Array.isArray(arr);
