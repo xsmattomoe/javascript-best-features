@@ -1,3 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isArray = (arr) => Array.isArray(arr);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const minNumber = arr => Math.min(...arr);
