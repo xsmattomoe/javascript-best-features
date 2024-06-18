@@ -1,3 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const minNumber = arr => Math.min(...arr);
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log("0 || 1 = "+(0 || 1));
