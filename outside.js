@@ -1,1 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
+const fullName = name || 'buddy';
+const result = await makeHttpRequest(url);
