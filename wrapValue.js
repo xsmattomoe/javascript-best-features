@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isTabInView = () => !document.hidden;
+console.log(false == '0');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 console.log(+"1" +  "1" + "2");
