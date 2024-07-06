@@ -1,1 +1,1 @@
-var pattern = {};
+[foo, bar] = [bar, foo];
