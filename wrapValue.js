@@ -1,2 +1,1 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-console.log(1 +  "2" + "2");
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
