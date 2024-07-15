@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const channelName = getChannelName(channel);
