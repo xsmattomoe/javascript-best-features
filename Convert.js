@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const merge = Object.assign({}, obj1, obj2);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const lastElement = arr => arr[arr.length - 1];
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
