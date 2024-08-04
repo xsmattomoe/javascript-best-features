@@ -1,1 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
