@@ -1,3 +1,3 @@
-console.log(false === '0');
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const result = await makeHttpRequest(url);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(typeof typeof 1);
